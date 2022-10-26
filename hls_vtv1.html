@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu 
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #00CC99;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1></h1>
+
+<div class="vertical-menu">
+
+    </head>
+
+<body>
+
+<h1></h1>
+
+<div class="vertical-menu">
+  
+  <a href="#"
+class="active">_________________welcome__________________</a>
+
+  <a href="#"></a>
+
+</div>
+<head><style>.list_server a{display:inline-block;padding:5px 10px;background:#888;color:#fff;margin-right:5px;margin-bottom:5px;}a,a:visited{color:#d4202b;text-decoration:none;outline:0}.list_server a>.fa{margin-right:5px}.list_server a>.fa.fa-pause{display:none}.list_server a>.fa{margin-right:5px}.list_server a.active{background-color:#018c01;}@media (max-width: 480px){.list_server a {padding: 5px 7px;color: #fff;font-size: 14px;   }
+}</style>
+
+
+</head><body style="margin: 0px;">
+<meta name="referrer" content="">
+
+<div id="livenow" style="margin-bottom: 10px;">
+<video style="z-index:2;width:100%;height:200px;background-color:#000;-o-object-fit:fill;object-fit:fill" controls="controls" autoplay="true" preload="auto" height="auto" src="https://web-livecdn.fptplay.net/hda1/vtv1hd_4000.stream/playlist.m3u8"></video></div>
+<div id="live_server" class="list_server" style="text-align: center;">
+<a id="link-1" onclick="',this,1)" href="javascript:;" class="active filter">Bạn Đang Xem Kênh VTV1</a>
+
+
+<script>
+ 
+function live(e, t, i,vt) {
+    document.getElementsByClassName("active")[0].classList.remove("active"), i.className = "active";
+	
+	if("m3u8" == t){
+		document.getElementById("livenow").innerHTML = '<meta name="referrer" content="no-referrer"><video style="z-index:2;width:100%;height:200px;background-color:#000;-o-object-fit:fill;object-fit:fill" controls="controls" autoplay="true" preload="auto" height="auto" src=' + e + '></video>';
+	}
+		if("if" == t){
+			document.getElementById("livenow").innerHTML = '<meta name="referrer" content="always"><iframe referrerpolicy="origin" width="100%" height="200" scrolling="no" src="' + e + '" frameborder="0" allowfullscreen="true"></iframe>';
+		}
+	
+	
+	if( "post" == t ){
+document.getElementById("livenow").innerHTML = '<center style="background: white;"><image  width="100%" height="200px" alt="loading" src="https://i-imgur-com.cdn.ampproject.org/i/s/i.imgur.com/1C8RHJb.gif"/></center>';
+var xhr = new XMLHttpRequest();
+xhr.open("POST", '/ok/blog/code/postBack.php', true);
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+xhr.onreadystatechange = function() { // Call a function when the state changes.
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+		document.getElementById("livenow").innerHTML = '<meta name="referrer" content="no-referrer"><video style="z-index:2;width:100%;height:200px;background-color:#000;-o-object-fit:fill;object-fit:fill" controls="controls" autoplay="true" preload="auto" height="auto" src=' + xhr.responseText + '></video>';
+    }
+}
+xhr.send(e); 
+}
+}
+
+ </script></body>
+</html>
