@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Custom Vanilla JS HTML5 Video Player</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>HTML Video Player</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+ Custom Vanilla JS HTML5 Video Player
+ <div class="player">
+  <video class="player__video viewer" src="https://api.vthanhtivi.pw/v1/getlink/vieon/vtc7-todaytv-hd"></video>
+  <div class="player__controls player__controls--visible">
+   <div class="progress">
+    <div class="progress__filled"></div>
+   </div>
+   <div class="player__controls-holder">
+    <button class="player__button togglePlayback" title="Toggle Play"><i class="player__playbackIcon"></i></button>
+    <input type="range" name="volume" class="player__slider playerVolume" min="0" max="1" step="0.05" value="1">
+   </div>
+   <div class="player__controls-holder">
+    <select name="playbackRate" class="player__select playerSpeed">
+        <option value="0.5">0.5</option>
+        <option value="0.75">0.75</option>
+        <option value="1" selected>Normal</option>
+        <option value="1.5">1.5</option>
+        <option value="2">2</option>
+    </select>
+    <button class="player__button toggleFullscreen" title="Toggle Play">⛶</button>
+   </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
+<style>
+/* GENERAL STYLING: NOT NECESSARY */
+
+html {
+ box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+ box-sizing: inherit;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-flow: column;
+ background: #7a419b;
+ min-height: 100vh;
+ background: linear-gradient(135deg, #7c1599 0%, #921099 48%, #7e4ae8 100%);
+ background-size: cover;
+ align-items: center;
+ justify-content: center;
+}
+
+/* END OF GENERAL STYLING */
+
+/* START OF USEFUL CODE */
+
+.player__button,
+.player__slider,
+.player__select {
+ -moz-text-align-last: right;
+      text-align-last: right;
+ margin: 0 10px;
+ padding: 5px;
+ border: 0;
+ background-color: transparent;
+ color: #fff;
+}
+.player__button:focus,
+.player__slider:focus,
+.player__select:focus {
+ outline: none;
+}
+
+.player__button {
+ font-size: 20px;
+ width: 25px;
+ line-height: 1.6;
+}
+
+.player__select > option {
+ background: rgba(255, 255, 255, 0.4);
+ border-left: 1px solid #c0c0c0;
+ border-right: 1px solid #c0c0c0;
+ border-bottom: 1px solid #c0c0c0;
+ position: absolute;
+ top: 42px;
+ left: 0;
+ right: 0;
+ z-index: 1;
+}
+
+.player {
+ min-width: 750px;
+ border: 5px solid rgba(0, 0, 0, 0.2);
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+ position: relative;
+ font-size: 0;
+ overflow: hidden;
+ transform: rotate(90deg);
+}
+
+.player__video {
+ width: 100%;
+}
+
+.player__controls {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ transform: translateY(100%) translateY(-5px);
+ transition: all 0.3s;
+ background: rgba(0, 0, 0, 0.8);
+ z-index: 2147483647;
+}
+
+.player__controls--visible {
+ transform: translateY(0);
+}
+
+.player__controls-holder {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.progress {
+ flex: 10;
+ position: relative;
+ display: flex;
+ flex-basis: 100%;
+ height: 10px;
+ transition: height 0.3s;
+ background: rgba(0, 0, 0, 0.5);
+ cursor: ew-resize;
+}
+
+.progress__filled {
+ width: 50%;
+ background: #ffc600;
+ flex: 0;
+ flex-basis: 0%;
+}
+
+.player__playbackIcon::after {
+ font-family: "FontAwesome";
+ content: "\f04b";
+}
+
+.player__playbackIcon--paused::after {
+ font-family: "FontAwesome";
+ content: "\f04c";
+}
+
+.player__select {
+ -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+}
+
+.player__select > option {
+ background-color: #000;
+}
+
+/* unholy css to style input type="range" */
+
+input[type="range"] {
+ -webkit-appearance: none;
+ background: transparent;
+ width: 100%;
+ margin: 0 5px;
+}
+
+input[type="range"]:focus {
+ outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+ width: 100%;
+ height: 8.4px;
+ cursor: pointer;
+ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0 0 1px rgba(13, 13, 13, 0);
+ background: rgba(255, 255, 255, 0.8);
+ border-radius: 1.3px;
+ border: 0.2px solid rgba(1, 1, 1, 0);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+ height: 15px;
+ width: 15px;
+ border-radius: 50px;
+ background: #ffc600;
+ cursor: pointer;
+ -webkit-appearance: none;
+ margin-top: -3.5px;
+ box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+input[type="range"]::-moz-range-track {
+ width: 100%;
+ height: 8.4px;
+ cursor: pointer;
+ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0 0 1px rgba(13, 13, 13, 0);
+ background: #ffffff;
+ border-radius: 1.3px;
+ border: 0.2px solid rgba(1, 1, 1, 0);
+}
+
+input[type="range"]::-moz-range-thumb {
+ box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(13, 13, 13, 0);
+ height: 15px;
+ width: 15px;
+ border-radius: 50px;
+ background: #ffc600;
+ cursor: pointer;
+}
+
+/* fullscreen */
+html:-ms-fullscreen {
+ width: 100%;
+}
+:-webkit-full-screen {
+ background-color: transparent;
+}
+/* hide controls on fullscreen with WebKit */
+video::-webkit-media-controls {
+ display: none !important;
+}
+
+video {
+ height: auto;
+}
+</style> 
+
+<script>
+/* Get Elements */
+const player = document.querySelector(".player");
+const video = player.querySelector(".viewer");
+const controls = player.querySelector(".player__controls");
+const progress = player.querySelector(".progress");
+const progressBar = player.querySelector(".progress__filled");
+const toggleButton = player.querySelector(".togglePlayback");
+const volume = player.querySelector(".playerVolume");
+const speed = player.querySelector(".playerSpeed");
+const fullscreen = player.querySelector(".toggleFullscreen");
+
+/* Functions */
+function togglePlay() {
+ const icon = toggleButton.querySelector(".player__playbackIcon");
+ video.paused ? video.play() : video.pause();
+ icon.classList.toggle("player__playbackIcon--paused");
+}
+
+function handleRangeUpdate() {
+ video[this.name] = this.value;
+}
+
+function handleProgress() {
+ const percent = video.currentTime / video.duration * 100;
+ progressBar.style.flexBasis = `${percent}%`;
+}
+
+function handleSeek(e) {
+ const seekTime = e.offsetX / progress.offsetWidth * video.duration;
+ video.currentTime = seekTime;
+}
+
+// Create fullscreen video button
+function toggleFullscreen() {
+ if (!document.webkitFullscreenElement) {
+  if (video.requestFullScreen) {
+   player.requestFullScreen();
+  } else if (video.webkitRequestFullScreen) {
+   player.webkitRequestFullScreen();
+  } else if (video.mozRequestFullScreen) {
+   player.mozRequestFullScreen();
+  }
+ } else {
+  document.webkitExitFullscreen();
+ }
+}
+
+var countrolsHideTimeout;
+function toggleControls() {
+ if (!video.paused) {
+  clearTimeout(countrolsHideTimeout);
+  controls.classList.add("player__controls--visible");
+  countrolsHideTimeout = setTimeout(() => {
+   controls.classList.remove("player__controls--visible");
+  }, 3000);
+ }
+}
+
+/* Hook up the event listeners */
+
+video.addEventListener("click", togglePlay);
+video.addEventListener("timeupdate", handleProgress);
+
+toggleButton.addEventListener("click", togglePlay);
+volume.addEventListener("change", handleRangeUpdate);
+volume.addEventListener("mousemove", handleRangeUpdate);
+speed.addEventListener("change", handleRangeUpdate);
+
+let mousedown = false;
+progress.addEventListener("click", handleSeek);
+progress.addEventListener("mousemove", e => mousedown && handleSeek(e));
+progress.addEventListener("mousedown", () => (mousedown = true));
+progress.addEventListener("mouseup", () => (mousedown = false));
+
+fullscreen.addEventListener("click", toggleFullscreen);
+video.addEventListener("dblclick", toggleFullscreen);
+
+video.addEventListener("mousemove", toggleControls);
+controls.addEventListener("mouseover", () => {
+ clearTimeout(countrolsHideTimeout);
+});
+</script>
