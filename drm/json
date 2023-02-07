@@ -1,4 +1,0 @@
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"36PLv8UXf9/cVfAsjnltJA", "kid":"5xlj/pNsTOCTxWxYKWsx6w" },{ "kty":"oct", "k":"7fz9h3RZue3YZ8blOzPxTg", "kid":"L11j/pNsTOCTxWxYKWsx6w" },{ "kty":"oct", "k":"wrwAyM/Y1XoHADqMUHDQog", "kid":"PGGnL5NsTOCTxWxYKWsx6w" },{ "kty":"oct", "k":"N1+dNPdfy52r8zv0kGXgAQ", "kid":"KG6nR+JsTOCTxWxYKWsx6w" } ], "type":"temporary" }
