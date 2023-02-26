@@ -1,0 +1,8 @@
+#EXTMPD
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=900000
+#EXT-X-PLAYLIST-TYPE:CLEARKEY
+#EXT-X-KEY:roOM/RPYtLRL9JY6eHhfUA
+#EXT-X-KID:DibC3DM+R0id4kExw7noHw
+http://vas-mobiletv1.cdn.mytv.vn/pkg20/wrap/xlive.mpd?c=vstv339&offset=1&nodelay=1
+#EXT-X-ENDLIST
