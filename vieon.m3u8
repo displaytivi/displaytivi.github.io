@@ -1,0 +1,7 @@
+#EXTM3U
+#EXT-X-VERSION:7
+#EXT-X-TARGETDURATION:4
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-DISCONTINUITY-SEQUENCE:0
+#EXT-X-KEY:METHOD=SAMPLE-AES,URI=”https://clearkey-base64-2-hex-json.herokuapp.com/results.php",KEYID=2c1888024a483a48b98b48cc13ffb39c,KEYFORMAT=”31484c8cd4568bbb61101abc0f991f5f”,KEYFORMATVERSION=”clearkey”
+https://hni-vtt-001-livecdn-vthn-vnd.vieon.vn/6cb50c9bd4082fda8bfaddfd18efbd51/1678342532696/wz/livetv_origin_drm_sigmadrm/kplus_sport_1_22_08_2021_sigmadrm_web.smil/playlist.m3u8
