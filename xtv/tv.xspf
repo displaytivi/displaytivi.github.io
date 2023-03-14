@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Danh Sách Kênh</title>
+	<trackList>
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV1_HD/m30_index.m3u8</location>
+		<title>VTV1</title>
+        <image>https://displaytivi.github.io/2022/vtv1.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>0</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV2_HD/m20_index.m3u8</location>
+		<title>VTV2</title>
+        <image>https://displaytivi.github.io/2022/vtv2.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>1</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV3_HD/m20_index.m3u8</location>
+		<title>VTV3</title>
+        <image>https://displaytivi.github.io/2022/vtv3.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>2</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV4_HD/m20_index.m3u8</location>
+		<title>VTV4</title>
+        <image>https://displaytivi.github.io/2022/vtv4.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>3</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+	
+	<track>
+		<location>http://live.tv360.vn/manifest/VTV5_HD/playlist_1080p.m3u8</location>
+		<title>VTV5</title>
+        <image>https://displaytivi.github.io/2022/vtv5.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>4</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+
+	<track>
+		<location>http://live.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8</location>
+		<title>VTV Cần thơ</title>
+        <image>https://displaytivi.github.io/2022/vtvct.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>5</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV7_HD/m20_index.m3u8</location>
+		<title>VTV7</title>
+        <image>https://displaytivi.github.io/2022/vtv7.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>6</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV8_HD/m20_index.m3u8</location>
+		<title>VTV8</title>
+        <image>https://displaytivi.github.io/2022/vtv8.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>7</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+	
+	<track>
+		<location>http://code.vthanhtivi.pw/getlink/onplus/VTV9_HD/m20_index.m3u8</location>
+		<title>VTV9</title>
+        <image>https://displaytivi.github.io/2022/vtv9.jpg</image>
+		<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:id>8</vlc:id>
+			<vlc:option>network-caching=1000</vlc:option>
+		</extension>
+	</track>
+	
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+	</extension>
+</playlist>
