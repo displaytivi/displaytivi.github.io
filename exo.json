@@ -1,0 +1,52 @@
+[
+  {
+    "name": "VTV",
+    "samples": [
+      {
+        "name": "VTV1",
+        "uri": "https://livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+ {
+        "name": "VTV2",
+        "uri": "https://livecdn.fptplay.net/hda1/vtv2_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+ {
+        "name": "VTV3",
+        "uri": "https://livecdn.fptplay.net/hda1/vtv3hd_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+      {
+        "name": "VTV4",
+        "uri": "https://vips-livecdn.fptplay.net/hda1/vtv4_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+ {
+        "name": "VTV5",
+        "uri": "https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+ {
+        "name": "VTV Cần Thơ",
+        "uri": "https://livecdn.fptplay.net/hda1/vtvcantho_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+ {
+        "name": "VTV7",
+        "uri": "https://vips-livecdn.fptplay.net/hda3/vtv7hd_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+ {
+        "name": "VTV8",
+        "uri": "https://vips-livecdn.fptplay.net/hda2/vtv8hd_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+      },
+      {
+        "name": "VTV9",
+        "uri": "https://livecdn.fptplay.net/hda2/vtv9_vhls.smil/playlist.m3u8",
+        "extension": "m3u8"
+       }
+    ]
+  }
+]
