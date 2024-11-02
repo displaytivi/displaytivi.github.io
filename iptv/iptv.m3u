@@ -1,88 +1,80 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/vthanhtivi_epg.xml" catchup="append" catchup-days="3" catchup-source="&offset=-${offset}&utcstart=${timestamp}" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=0
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz"tvg-shift=0 m3uautoload=0
-#EXTM3U url-tvg="https://iptvx.one/EPG" deinterlace=0
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" cache=500 deinterlace=1 aspect-ratio=16:9 tvg-shift=0 m3uautoload=1
-#EXTM3U url-tvg="http://content.stream-link.org/epg/guide.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=3
-#EXTM3U url-tvg="http://epg.51zmt.top:8000/e.xml" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=5
-#EXTM3U url-tvg="https://i.mjh.nz/au/Melbourne/epg.xml.gz" tvg-shift=0 m3uautoload=12
-#EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml" tvg-shift=0 m3uautoload=13
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png", VTV1
-#EXTVLCOPT:http-user-agent=cvmedia/1.0.0
-http://p1.cvtv.xyz/vtv1?token=live
+https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://i.imgur.com/qWWpYRR.png",VTV2
-http://thvip.site/360/3/index.m3u8
+https://live.fptplay53.net/fnxch2/vtv2hd_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3
-#EXTVLCOPT:http-user-agent=cvmedia/1.0.0
-http://p1.cvtv.xyz/vtv3?token=live
+https://live.fptplay53.net/fnxch2/vtv3hd_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
-http://thvip.site/360/108/index.m3u8
+https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
-#EXTVLCOPT:http-user-agent=cvmedia/1.0.0
-http://p1.cvtv.xyz/vtv5?token=live
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s4.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e8.endpoint.cdn.sctvonline.vn/nginx.s4.edge.cdn.sctvonline.vn/hls/vtv5/index.m3u8
+
 #EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
-http://thvip.site/360/157/index.m3u8
+http://thvip.site/taynambo/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://i.imgur.com/R8c2swd.png",VTV5 Tây Nguyên
-http://thvip.site/360/207/index.m3u8
+http://thvip.site/taynguyen/index.m3u8
 #EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://i.imgur.com/HCpqatZ.png",VTV Cần Thơ
-http://thvip.site/360/98/index.m3u8
+http://thvip.site/vtv6/index.m3u8
 #EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://i.imgur.com/AgamSNe.png",VTV7
-http://thvip.site/360/6/index.m3u8
+http://thvip.site/vtv7/index.m3u8
 #EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://i.imgur.com/lpcltL9.png",VTV8
-http://thvip.site/360/115/index.m3u8
+http://thvip.site/vtv8/index.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
-http://thvip.site/360/8/index.m3u8
+http://thvip.site/vtv9/index.m3u8
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/7GSKm46.png",ON Vie Giải Trí
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://p1.cvtv.xyz/vie?token=live
-#EXTINF:-1 tvg-id="vtvcab2hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/MPNlpzb.png",ON Phim Việt 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/175/index.m3u8?cab2
-#EXTINF:-1 tvg-id="vtvcab4hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/765Y3jw.png",ON Movies 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/181/index.m3u8?cab4
-#EXTINF:-1 tvg-id="vtvcab5hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/87JEXEQ.png",ON E Channel 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/182/index.m3u8?cab5
-#EXTINF:-1 tvg-id="vtvcab7hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/nqwVkmM.png",ON O2TV
-https://thvip.site/360/136/index.m3u8?cab7
-#EXTINF:-1 tvg-id="vtvcab8hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/YFmPo7l.png",ON BiBi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/178/index.m3u8?cab8
-#EXTINF:-1 tvg-id="vtvcab9hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/jp57P0v.png",ON Info TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/189/index.m3u8?cab9
-#EXTINF:-1 tvg-id="vtvcab10hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/6f9ngwY.png",ON Cine
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/176/index.m3u8?cab10
-#EXTINF:-1 tvg-id="vtvcab12hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/6LQ0Z1O.png",ON Style TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/184/index.m3u8?cab12
-#EXTINF:-1 tvg-id="vtvcab15hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/45BXPY3.png",ON Music 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/185/index.m3u8?cab15
+https://thvip.site/vtvcab1/index.m3u8
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/MPNlpzb.png",ON Phim Việt 
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab2/index.m3u8?
+#EXTINF:-1 tvg-id="vtvcab3hd" group-title="VTVcab" tvg-logo="https://imgvlive.vtvcab.vn/720X405/f53c0d1b-0268-4d1e-b150-7d797354b925.jpg?auto=format&fit=max&w=640", ON Sports HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tth.vn/onsport
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/765Y3jw.png",ON Movies 
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab4/index.m3u8?
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/87JEXEQ.png",ON E Channel 
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab5/index.m3u8?
+#EXTINF:-1 tvg-id="vtvcab6hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/UNxM1Hs.jpg", ON Sports+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tth.vn/onsportplus
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/nqwVkmM.png",ON O2TV
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab7/index.m3u8?
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/YFmPo7l.png",ON BiBi
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab8/index.m3u8?
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/jp57P0v.png",ON Info TV
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab9/index.m3u8?
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/6f9ngwY.png",ON Cine
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab10/index.m3u8?
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/6LQ0Z1O.png",ON Style TV
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab12/index.m3u8?
+#EXTINF:-1 tvg-id="vtvcab15hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/45BXPY3.png",ON Music
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab15/index.m3u8?
 #EXTINF:-1 tvg-id="vtvcab16hd" group-title="VTVcab" tvg-logo="https://cdn.hqth.me/logo/thumbs/24.png" catchup="append" catchup-days="2" codec="system", ON Football HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-http://taixiudianh9999.ddns.net:21585/vtvcab16/index.m3u8
-#EXTINF:-1 tvg-id="vtvcab17hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png",ON Trending TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/186/index.m3u8?cab17
-#EXTINF:-1 tvg-id="vtvcab19hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/n7QICK7.png",ON Vie DRAMAS
-http://thvip.site/360/177/index.m3u8?cab19
-#EXTINF:-1 tvg-id="vtvcab20hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/R82M53x.png",ON VFamily
-http://thvip.site/360/187/index.m3u8?cab20
-#EXTINF:-1 tvg-id="vtvcab21hd" group-title="VTVcab" tvg-logo="https://i.ibb.co/mq65M0Y/On-kids.jpg",ON KIDS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/179/index.m3u8?cab21
-#EXTINF:-1 tvg-id="vtvcab22hd" group-title="VTVcab" tvg-logo="https://i.ibb.co/QXk7C6G/On-life.jpg",On Life
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/188/index.m3u8?cab22
-#EXTINF:-1 tvg-id="vtvcab23hd" group-title="VTVcab" tvg-logo="https://i.imgur.com/BGF2I58.png",ON Golf 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Window NT 10.0; Win64; x64)
-http://thvip.site/360/169/index.m3u8?cab23
-#EXTINF:-1 group-title="VTVcab" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/04/24/17/1682332092780/da2b18a32787_640_360.png",BTV5
-https://liveh12.vtvcab.vn/hls/ONBTV5/04.m3u8
+https://tth.vn/onfootball
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/hHYzxmS.png",ON Trending TV
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab17/index.m3u8?
+#EXTINF:-1 tvg-id="vtvcab18hd" group-title="VTVcab" tvg-logo="https://imgvlive.vtvcab.vn/720X405/60237478-0dc1-4480-a050-b2a84e4b9b69.jpg?auto=format&fit=max&w=640", ON Sports News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://tth.vn/onsportnews
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/n7QICK7.png",ON Vie DRAMAS
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab19/index.m3u8?
+#EXTINF:-1 group-title="VTVcab" tvg-logo="https://i.imgur.com/R82M53x.png",ON VFamily
+#EXTVLCOPT:http-referrer=http://sctvonline.vn/
+https://s10.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e3.endpoint.cdn.sctvonline.vn/nginx.s10.edge.cdn.sctvonline.vn/hls/vtvcab20/index.m3u8?
 
 #EXTINF:-1 group-title="T chỉ để ý đến kênh MOV" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/3e/MOV_2022.png/revision/latest/scale-to-width-down/1000?cb=20230312105722&path-prefix=vi", MOV 24 HD
 https://doitac.nekocdn.xyz/satv24/index.m3u8
@@ -95,59 +87,59 @@ https://cdn02.32mine.net/onnamusic/index.m3u8
 #EXTINF:-1 tvg-id="vtc1hd" group-title="VTC" tvg-logo="https://i.imgur.com/7HD60aD.png",VTC1
 http://p1.cvtv.xyz/vtc1?token=live
 #EXTINF:-1 tvg-id="vtc2hd" group-title="VTC" tvg-logo="https://i.imgur.com/WUUXS6T.png",VTC2
-http://thvip.site/360/196/index.m3u8?vtc2
+https://thvip.site/vtc2/index.m3u8
 #EXTINF:-1 tvg-id="vtc3hd" group-title="VTC" tvg-logo="https://i.imgur.com/hS4bgHe.png",VTC3
-http://thvip.site/360/197/index.m3u8?vtc3
+https://thvip.site/vtc3/index.m3u8
 #EXTINF:-1 tvg-id="vtc4hd" group-title="VTC" tvg-logo="https://i.imgur.com/5cwYPTt.png",VTC4
-http://thvip.site/360/198/index.m3u8?vtc4
+https://thvip.site/vtc4/index.m3u8
 #EXTINF:-1 tvg-id="vtc5hd" group-title="VTC" tvg-logo="https://i.imgur.com/VvfiwPJ.png",VTC5
-http://thvip.site/360/199/index.m3u8?vtc5
+https://thvip.site/vtc5/index.m3u8
 #EXTINF:-1 tvg-id="vtc6hd" group-title="VTC" tvg-logo="https://i.imgur.com/LPdjM0z.png",VTC6
-http://thvip.site/360/200/index.m3u8?vtc6
+https://thvip.site/vtc6/index.m3u8
 #EXTINF:-1 tvg-id="vtc7hd" group-title="VTC" tvg-logo="https://i.imgur.com/Y5FUbsY.png",VTC7
-http://thvip.site/360/201/index.m3u8?vtc7
+https://thvip.site/today/index.m3u8
 #EXTINF:-1 tvg-id="vtc8hd" group-title="VTC" tvg-logo="https://i.imgur.com/4k57giG.png",VTC8
-http://thvip.site/360/202/index.m3u8?vtc8
+https://thvip.site/vtc8/index.m3u8
 #EXTINF:-1 tvg-id="vtc9hd" group-title="VTC" tvg-logo="https://i.imgur.com/cnAht7i.png",VTC9
-http://thvip.site/360/203/index.m3u8?vtc9
+https://thvip.site/vtc9/index.m3u8
 #EXTINF:-1 tvg-id="vtc10hd" group-title="VTC" tvg-logo="https://i.imgur.com/PaVbyxg.png",VTC10
-http://thvip.site/360/204/index.m3u8?vtc10
+https://thvip.site/vtc10/index.m3u8
 #EXTINF:-1 tvg-id="vtc11" group-title="VTC" tvg-logo="https://i.imgur.com/0ovZkYb.png",VTC11
-http://thvip.site/360/205/index.m3u8?vtc11
+https://thvip.site/kids/index.m3u8
 #EXTINF:-1 tvg-id="vtc14hd" group-title="VTC" tvg-logo="https://i.imgur.com/phXvB0t.png",VTC14
-http://thvip.site/360/17/index.m3u8?vtc14
+https://thvip.site/vtc14/index.m3u8
 #EXTINF:-1 tvg-id="vtc16hd" group-title="VTC" tvg-logo="https://i.imgur.com/rltq2Dy.png",VTC16
-http://thvip.site/360/18/index.m3u8?vtc16
+https://thvip.site/vtc16/index.m3u8
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://i.imgur.com/KEMSBD3.png",HTV1
-http://thvip.site/360/190/index.m3u8?htv1
+https://thvip.site/htv1/index.m3u8
 #EXTINF:-1 tvg-id="htv2" group-title="HTV" tvg-logo="https://i.imgur.com/Yc3cmAi.png",HTV2
-http://thvip.site/360/191/index.m3u8?htv2
+https://thvip.site/htv2/index.m3u8
 #EXTINF:-1 tvg-id="htv3" group-title="HTV" tvg-logo="https://i.imgur.com/2iE01Ca.png",HTV3
-http://thvip.site/360/192/index.m3u8?htv3
+https://thvip.site/htv3/index.m3u8
 #EXTINF:-1 tvg-id="htv4" group-title="HTV" tvg-logo="https://i.imgur.com/13jHqoG.png",HTV Key
-http://thvip.site/360/9/index.m3u8?htvkey
+https://thvip.site/htv4/index.m3u8
 #EXTINF:-1 tvg-id="htv7hd" group-title="HTV" tvg-logo="https://i.imgur.com/PPFu7pv.png",HTV7
 http://p1.cvtv.xyz/htv7?token=live
 #EXTINF:-1 tvg-id="htv9hd" group-title="HTV" tvg-logo="https://i.imgur.com/1SgC1yo.png",HTV9
-http://thvip.site/360/194/index.m3u8?htv9
+https://thvip.site/htv9/index.m3u8
 #EXTINF:0 tvg-id="htvthethaohd" group-title="HTV" tvg-logo="https://i.imgur.com/z7NOxJ3.png",HTV Thể Thao
-http://thvip.site/360/195/index.m3u8?htvtt
+https://thvip.site/htvtt/index.m3u8
 
 #EXTINF:0 tvg-id="htvccanhachd" group-title="HTVC" tvg-logo="https://i.imgur.com/ZHVkEIC.png",HTVC Ca Nhạc
-http://thvip.site/360/14/index.m3u8?canhac
+https://thvip.site/canhac/index.m3u8
 #EXTINF:0 tvg-id="htvcdulichhd" group-title="HTVC" tvg-logo="https://i.imgur.com/XxIO0E0.png",HTVC Du Lịch và Cuộc Sống
-http://thvip.site/360/133/index.m3u8?dulich
+https://thvip.site/dulich/index.m3u8
 #EXTINF:0 tvg-id="htvcgiadinhhd" group-title="HTVC" tvg-logo="https://i.imgur.com/KxWRNH6.png",HTVC Gia Đình
-http://thvip.site/360/11/index.m3u8?giadinh
+https://thvip.site/giadinh/index.m3u8
 #EXTINF:0 tvg-id="htvcphimhd" group-title="HTVC" tvg-logo="https://i.imgur.com/SXV3ya9.png",HTVC Phim
-http://thvip.site/360/15/index.m3u8?phim
+https://thvip.site/htvcphim/index.m3u8
 #EXTINF:0 tvg-id="htvcphunuhd" group-title="HTVC" tvg-logo="https://i.imgur.com/PLliKL6.png",HTVC Phụ Nữ
-http://thvip.site/360/12/index.m3u8?phunu
+https://thvip.site/phunu/index.m3u8
 #EXTINF:0 tvg-id="htvcthuanviet" group-title="HTVC" tvg-logo="https://i.imgur.com/xmISDWo.png",HTVC Thuần Việt
-http://thvip.site/360/13/index.m3u8?thuanviet
+https://thvip.site/thuanviet/index.m3u8
 #EXTINF:0 tvg-id="htvcplushd" group-title="HTVC" tvg-logo="https://i.imgur.com/SQ9cLJj.png",HTVC+
-http://thvip.site/360/132/index.m3u8?htvcplus
+https://thvip.site/htvcplus/index.m3u8
 
 #EXTINF:-1 tvg-id="sctv1hd" group-title="SCTV" tvg-logo="https://cdn.hqth.me/logo/thumbs/63.png", SCTV1 HD
 #EXTVLCOPT:http-referrer=http://sctvonline.vn/
@@ -221,8 +213,6 @@ https://s7.edge.cdn.sctvonline.vn/cdn-cgi/edge/v2/e1.endpoint.cdn.sctvonline.vn/
 
 #EXTINF:-1 group-title="Thiết yếu" tvg-logo="https://i.imgur.com/lARtNRO.png",VOVTV HD
 https://live.mediatech.vn/live/285fbc845578c6641d5a4c40534a0d1864b/playlist.m3u8
-#EXTINF:-1 tvg-id="vovtvhd" group-title="Thiết yếu" tvg-logo="https://github.com/luongtamlong/Dak-Lak-IPTV/blob/main/VOVGTTV.png?raw=trueg",VOV Giao Thông TV
-https://ythls.kekikakademi.org/youtube/channel/UCPeJU6XNeZMwaHYXE27Vgmg.m3u8
 #EXTINF:-1 group-title="Thiết yếu" tvg-logo="https://i.imgur.com/QztqOe0.png",ANTV HD
 https://liveh34.vtvcab.vn/hls/ONANTV_CL/04.m3u8
 #EXTINF:-1 group-title="Thiết yếu" tvg-logo="https://i.imgur.com/7zgsFIK.png",NHÂN DÂN TV
@@ -242,14 +232,14 @@ https://ythls.kekikakademi.org/youtube/channel/UCjGZqYveB7XFFk6qjgr_wqg.m3u8
 https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/playlist.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/szivqh2.png",HanoiTV2 HD
 https://cloudstreamhntv.tek4tv.vn/live/smil:HN2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="vinhlong1hd" group-title="THVL" tvg-logo="https://i.imgur.com/pTVybK6.png",THVL1
-http://thvip.site/360/25/index.m3u8?thvl1
-#EXTINF:-1 tvg-id="vinhlong2hd" group-title="THVL" tvg-logo="https://i.imgur.com/MsHdGNZ.png",THVL2
-http://thvip.site/360/26/index.m3u8?thvl2
-#EXTINF:-1 tvg-id="vinhlong3hd" group-title="THVL" tvg-logo="https://i.imgur.com/44c1Yoz.png",THVL3
-http://thvip.site/360/219/index.m3u8?thvl3
-#EXTINF:-1 tvg-id="vinhlong4hd" group-title="THVL" tvg-logo="https://i.imgur.com/JWDsJxB.png",THVL4
-http://thvip.site/360/220/index.m3u8?thvl4
+#EXTINF:-1 tvg-id="vinhlong1hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/pTVybK6.png",THVL1
+https://thvip.site/vinhlong1/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong2hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/MsHdGNZ.png",THVL2
+https://thvip.site/vl2/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong3hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/44c1Yoz.png",THVL3
+https://thvip.site/vl3/index.m3u8
+#EXTINF:-1 tvg-id="vinhlong4hd" group-title="Địa phương" tvg-logo="https://i.imgur.com/JWDsJxB.png",THVL4
+https://thvip.site/vl4/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/0TkI4Ar.png",ATV SD | TH An Giang
 https://oipf0znpmnliv.vcdn.cloud/hls/thangiang/index.m3u8
 #EXTINF:-1 group-title="Địa phương" tvg-logo="https://i.imgur.com/ATG11ql.png",BLTV HD | TH Bạc Liêu
@@ -602,168 +592,319 @@ https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC13/index.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
 
 
-#EXTINF:-1 group-title="ITALIA", Premium Action
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10072
-#EXTINF:-1 group-title="ITALIA", Premium Cinema
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10073
-#EXTINF:-1 group-title="ITALIA", Premium Comedy
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10074
-#EXTINF:-1 group-title="ITALIA", Premium Crime
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10075
-#EXTINF:-1 group-title="ITALIA", Cinema Family HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10080
-#EXTINF:-1 group-title="ITALIA", Sky Primafila 1 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10082
-#EXTINF:-1 group-title="ITALIA", Sky Primafila 2 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10083
-#EXTINF:-1 group-title="ITALIA", Sky Primafila 3 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10084
-#EXTINF:-1 group-title="ITALIA", Sky Primafila 4 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10085
-#EXTINF:-1 group-title="ITALIA", Sky Primafila 5 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10086
-#EXTINF:-1 group-title="ITALIA", Sky Primafila 6 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10087
-#EXTINF:-1 group-title="ITALIA",  Cinema 1 HD
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10089
-#EXTINF:-1 group-title="ITALIA", Rai 1
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10090
-#EXTINF:-1 group-title="ITALIA", Rai 2
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10091
-#EXTINF:-1 group-title="ITALIA", Rai 3
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10092
-#EXTINF:-1 group-title="ITALIA", Rai 4
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10093
-#EXTINF:-1 group-title="ITALIA", Rai 5
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10094
-#EXTINF:-1 group-title="ITALIA", Rai Movie
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10095
-#EXTINF:-1 group-title="ITALIA", Italia 1
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10096
-#EXTINF:-1 group-title="ITALIA", Canale 5
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10097
-#EXTINF:-1 group-title="ITALIA", LA 5
-http://pro-solut-xi.eu:5436/bossna/testiptvvv/10098
+#EXTINF:-1 tvg-id="ABC.(WABC).New.York,.NY.us" tvg-name="ABC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/abc-us.png" group-title="HOA KỲ" ,ABC
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium51/index.m3u8
+#EXTINF:-1 tvg-id="CBS.(WCBS).New.York,.NY.us" tvg-name="CBS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cbs-logo-white-us.png" group-title="HOA KỲ" ,CBS
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium52/index.m3u8
+#EXTINF:-1 tvg-id="NBC.(WNBC).New.York,.NY.us" tvg-name="NBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/nbc-us.png" group-title="HOA KỲ" ,NBC
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium53/index.m3u8
+#EXTINF:-1 tvg-id="Consumer.News.and.Business.Channel.HDTV.(CNBCH).us" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="HOA KỲ" ,CNBC
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium309/index.m3u8
+#EXTINF:-1 tvg-id="msnbc.HDTV.(msnbcH).us" tvg-name="MSNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/msnbc-alt-us.png" group-title="HOA KỲ" ,MSNBC
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.Network.(East).(TELMUN).us" tvg-name="Telemundo" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/telemundo-us.png" group-title="HOA KỲ" ,Telemundo
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium131/index.m3u8
+#EXTINF:-1 tvg-id="Univision.Network.HDTV.(UNIHD).us" tvg-name="Univision" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/univision-us.png" group-title="HOA KỲ" ,Univision
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium132/index.m3u8
+
+#EXTINF:-1 tvg-id="9206" tvg-name="BBC News Channel HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-news-uk.png" group-title="ANH QUỐC" ,BBC News Channel HD
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium349/index.m3u8
+
+#EXTINF:-1 tvg-id="BBC.One.EastHD.uk" tvg-name="BBC One" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="ANH QUỐC" ,BBC One
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8
+
+#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-two-uk.png" group-title="ANH QUỐC" ,BBC Two
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium357/index.m3u8
+
+#EXTINF:-1 tvg-id="BBC.Three.HD.uk" tvg-name="BBC Three" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="ANH QUỐC" ,BBC Three
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium358/index.m3u8
+
+#EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-name="BBC Four" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="ANH QUỐC" channel-number="446",BBC Four
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium359/index.m3u8
+
+#EXTINF:-1 tvg-id="Channel.4.uk" tvg-name="Channel 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-4-uk.png" group-title="ANH QUỐC" ,Channel 4
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium354/index.m3u8
+
+#EXTINF:-1 tvg-id="Channel.5.uk" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/channel-5-uk.png" group-title="ANH QUỐC" ,Channel 5
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium355/index.m3u8
+
+#EXTINF:-1 tvg-id="U.and.Dave.HD.uk" tvg-name="Dave" tvg-logo="https://res.cloudinary.com/uktv/image/upload/v1390389612/nnjpehbj2a2qvyxoda0z.jpg" group-title="ANH QUỐC" ,Dave
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium348/index.m3u8
+
+#EXTINF:-1 tvg-id="E4.HD.uk" tvg-name="E4 Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/E4_Logo.png" group-title="ANH QUỐC" ,E4 Channel
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium363/index.m3u8
+
+#EXTINF:-1 tvg-id="Film4.HD.uk" tvg-name="Film4" tvg-logo="https://cdn.comedy.co.uk/images/channels/film4.jpg" group-title="ANH QUỐC" ,Film4
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium688/index.m3u8
+
+#EXTINF:-1 tvg-id="Gold.uk" tvg-name="Gold" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/gold-uk.png" group-title="ANH QUỐC" ,Gold
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium687/index.m3u8
+
+#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-name="ITV 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-1-uk.png" group-title="ANH QUỐC" ,ITV 1
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium350/index.m3u8
+
+#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-name="ITV 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-2-uk.png" group-title="ANH QUỐC" ,ITV 2
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium351/index.m3u8
+
+#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-name="ITV 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-3-uk.png" group-title="ANH QUỐC" ,ITV 3
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium352/index.m3u8
+
+#EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-name="ITV 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-4-uk.png" group-title="ANH QUỐC" streamId="449" channel-number="323,ITV 4
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium353/index.m3u8
+
+#EXTINF:-1 tvg-id="MTV.HD.uk" tvg-name="MTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mtv-uk.png" group-title="ANH QUỐC" ,MTV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium367/index.m3u8
+
+#EXTINF:-1 tvg-id="MUTV.HD.uk" tvg-name="MUTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/mutv-uk.png" group-title="ANH QUỐC" ,MUTV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium377/index.m3u8
+
+#EXTINF:-1 tvg-id="RTÉ.One.ie" tvg-name="RTE 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/53/RTE_One_Stacked.svg/revision/latest/scale-to-width-down/250?cb=20210310105314" group-title="ANH QUỐC" ,RTE 1
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium364/index.m3u8
+
+#EXTINF:-1 tvg-id="RTÉ2.ie" tvg-name="RTE 2" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/11/RT%C3%892_logo.svg/1200px-RT%C3%892_logo.svg.png" group-title="ANH QUỐC" ,RTE 2
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium365/index.m3u8
+
+#EXTINF:-1 tvg-id="S4C.uk" tvg-name="S4C" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/s4c-uk.png" group-title="ANH QUỐC" ,S4C
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium670/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Premiere.uk" tvg-name="Sky Cinema Premiere" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-premiere-uk.png" group-title="ANH QUỐC" ,Sky Cinema Premiere
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium671/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Cinema.Select.uk" tvg-name="Sky Cinema Select" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-select-uk.png" group-title="ANH QUỐC" ,Sky Cinema Select
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium672/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Cinema.Hits.HD.uk" tvg-name="Sky Cinema Hits" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-hits-uk.png" group-title="ANH QUỐC" ,Sky Cinema Hits
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium673/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Greats.uk" tvg-name="Sky Cinema Greats" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-greats-uk.png" group-title="ANH QUỐC" ,Sky Cinema Greats
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium674/index.m3u8
+
+#EXTINF:-1 tvg-id="SkyAnimationHD.uk" tvg-name="Sky Cinema Animation" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-animation-uk.png" group-title="ANH QUỐC" ,Sky Cinema Animation
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium675/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Family.HD.uk" tvg-name="Sky Cinema Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-family-uk.png" group-title="ANH QUỐC" ,Sky Cinema Family
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium676/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Action.uk" tvg-name="Sky Cinema Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-action-uk.png" group-title="ANH QUỐC" ,Sky Cinema Action
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium677/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Drama.HD.uk" tvg-name="Sky Cinema Drama" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-drama-uk.png?raw=true" group-title="ANH QUỐC" ,Sky Cinema Drama
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium680/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Thriller.HD.uk" tvg-name="Sky Cinema Thriller" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-thriller-uk.png" group-title="ANH QUỐC" ,Sky Cinema Thriller
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium679/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Sci-Fi.HD.uk" tvg-name="Sky Cinema Sci-Fi Horror" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-uk.png" group-title="ANH QUỐC" ,Sky Cinema Sci-Fi Horror
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium681/index.m3u8
+
+#EXTINF:-1 tvg-id="SkyShowcaseHD.uk" tvg-name="Sky Showcase" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-showcase-uk.png" group-title="ANH QUỐC" ,Sky Showcase
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium682/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Arts.HD.uk" tvg-name="Sky Arts" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" group-title="ANH QUỐC" ,Sky Arts
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium683/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Comedy.HD.uk" tvg-name="Sky Comedy" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-comedy-uk.png" group-title="ANH QUỐC" ,Sky Comedy
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium684/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Crime.HD.uk" tvg-name="Sky Crime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-crime-uk.png" group-title="ANH QUỐC" ,Sky Crime
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium685/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.HistoryHD.uk" tvg-name="Sky History" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-history-uk.png" group-title="ANH QUỐC" ,Sky History
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium686/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Witness.HD.uk" tvg-name="Sky Witness HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" group-title="ANH QUỐC" ,Sky Witness HD
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium361/index.m3u8
+
+#EXTINF:-1 tvg-id="Sky.Atlantic.HD.uk" tvg-name="Sky Atlantic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/2560px-Sky_Atlantic_-_Logo_2020.svg.png" group-title="ANH QUỐC" ,Sky Atlantic
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium362/index.m3u8
+
+#EXTINF:-1 tvg-id="CTV.Toronto.HDTV.(CTVHT).ca" tvg-name="CTV" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-ca.png" group-title="Canada" ,CTV
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium602/index.m3u8
+
+#EXTINF:-1 tvg-id="CTV.Two.Barrie/Toronto/CKVR.HDTV.(CTV2T).ca" tvg-name="CTV 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada" ,CTV 2
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium838/index.m3u8
+
+#EXTINF:-1 tvg-id="Citytv.Toronto.HDTV.(CTYTH).ca" tvg-name="Citytv" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/city-tv-ca.png" group-title="Canada" ,Citytv
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium831/index.m3u8
+
+#EXTINF:-1 tvg-id="CBC.Toronto.HDTV.(CBLTHD).ca" tvg-name="CBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cbc-ca.png" group-title="Canada" ,CBC
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8
+
+#EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name="Global" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/global-ca.png" group-title="Canada" ,Global
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium836/index.m3u8
 
 
-#EXTINF:-1 group-title="ĐỨC",3+ HD
-http://176.10.117.3:5000/play/a009/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",3sat HD
-http://176.10.117.3:5000/play/a005/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",4+ HD
-http://176.10.117.3:5000/play/a00a/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",5+ HD
-http://176.10.117.3:5000/play/a00b/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",6+ HD
-http://176.10.117.3:5000/play/a00c/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",7+ / Nick HD
-http://176.10.117.3:5000/play/a00x/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ARD-alpha HD
-http://176.10.117.3:5000/play/a01g/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ComedyCentral HD
-http://176.10.117.3:5000/play/a00z/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",DMAX HD
-http://176.10.117.3:5000/play/a00e/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Das Erste HD
-http://176.10.117.3:5000/play/a00j/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Das Erste HD EURO
-http://1018260c9f5.vws.vegacdn.vn/live/stream_9_159adbb2.flv
-#EXTINF:-1 group-title="ĐỨC",Disney Channel
-http://176.10.117.3:5000/play/a00w/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Eurosport 1
-http://176.10.117.3:5000/play/a00g/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Kanal 9 HD
-http://176.10.117.3:5000/play/a016/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",KiKA HD
-http://176.10.117.3:5000/play/a00v/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",MTV HD
-http://176.10.117.3:5000/play/a00y/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",NITRO
-http://176.10.117.3:5000/play/a00p/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ONE HD
-http://176.10.117.3:5000/play/a01d/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ORF 1 HD
-http://176.10.117.3:5000/play/a013/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ORF 2 HD
-http://176.10.117.3:5000/play/a014/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ORF III HD
-http://176.10.117.3:5000/play/a01f/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ProSieben
-http://176.10.117.3:5000/play/a00l/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ProSieben MAXX
-http://176.10.117.3:5000/play/a00q/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL
-http://176.10.117.3:5000/play/a00j/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",RTL EURO
-http://10182d7715c.vws.vegacdn.vn/live/stream_9_9b32389b.flv
-#EXTINF:-1 group-title="ĐỨC",RTLZWEI
-http://176.10.117.3:5000/play/a00o/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1
-http://176.10.117.3:5000/play/a00k/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SAT.1 Gold
-http://176.10.117.3:5000/play/a00s/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SIXX
-http://176.10.117.3:5000/play/a00r/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SRF 1 HD
-http://176.10.117.3:5000/play/a011/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SRF info HD
-http://176.10.117.3:5000/play/a008/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",SRF zwei HD
-http://176.10.117.3:5000/play/a012/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ServusTV HD
-http://176.10.117.3:5000/play/a004/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Super RTL
-http://176.10.117.3:5000/play/a00t/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Tele 1 HD
-http://176.10.117.3:5000/play/a019/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",TeleBärn HD
-http://176.10.117.3:5000/play/a017/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",TeleZüri HD
-http://176.10.117.3:5000/play/a01a/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",Telebasel HD
-http://176.10.117.3:5000/play/a018/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",VOX
-http://176.10.117.3:5000/play/a00m/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ZDF HD
-http://176.10.117.3:5000/play/a003/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",ZDF HD EURO
-http://10182bff04d.vws.vegacdn.vn/live/stream_9_026aabe2.flv
-#EXTINF:-1 group-title="ĐỨC",arte HD
-http://176.10.117.3:5000/play/a006/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",kabel eins
-http://176.10.117.3:5000/play/a00n/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",phoenix HD
-http://176.10.117.3:5000/play/a01h/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",sport1 HD
-http://176.10.117.3:5000/play/a00f/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",tagesschau24 HD
-http://176.10.117.3:5000/play/a01c/index.m3u8
-#EXTINF:-1 group-title="ĐỨC",zdf_neo HD
-http://176.10.117.3:5000/play/a01e/index.m3u8
 
 
 
 #EXTINF:-1 tvg-id="pervy" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy.png", OPT1
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-http://s18209.cdn.ngenix.net/hls/CH_R03_1TV/playlist.m3u8
+http://91.224.169.250:5000/c67
 #EXTINF:-1 tvg-id="pervy-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/pervy-pl4.png", OPT1 (MSK+4)
 http://15.204.218.179:8080/channel/1e6dfad1/index.m3u8?q=57ff178edc3611b013434698a166fd54
 #EXTINF:-1 tvg-id="rossia1" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1.png", Russia 1
-http://s18209.cdn.ngenix.net/hls/CH_R03_1TV/playlist.m3u8
+http://91.224.169.250:5000/c68
 #EXTINF:-1 tvg-id="rossia1-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia1-pl4.png", Russia 1 (MSK+4)
 http://15.204.218.179:8080/channel/b66c960/index.m3u8?q=57ff178edc3611b013434698a166fd54
 #EXTINF:-1 tvg-id="kultura" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/kultura.png", Russia K
-http://91.142.158.107:8092/play/36/index.m3u8
+http://91.224.169.250:5000/c306
 #EXTINF:-1 tvg-id="rossia-24" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/rossia-24.png", Russia 24 
-http://91.142.158.107:8092/play/37/index.m3u8
+http://91.224.169.250:5000/c307
 #EXTINF:-1 tvg-id="moskva-24" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/moskva-24.png", Moscow 24 
-https://livetv.mylifeisgood.net.ru/channels/moscow24.m3u8
+http://91.224.169.250:5000/c56
 #EXTINF:-1 tvg-id="ntv" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ntv.png", NTV HD
-https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8
+http://91.205.199.3/ntvhd/index.m3u8
 #EXTINF:-1 tvg-id="ntv-pl4" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/ntv-pl4.png", NTV (MSK+4)
-https://cdn.ntv.ru/ntv4/tracks-v1a1/playlist.m3u8
+http://91.205.199.3/ntvplus4/index.m3u8
 #EXTINF:-1 tvg-id="karusel" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://picon.ml/karusel.png", Karousel
-http://91.142.158.107:8092/play/38/index.m3u8
+http://93.125.121.75:80/Karusel/index.m3u8?token=test
 #EXTINF:-1 tvg-id="otr" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/OTR_2013_logo.svg/220px-OTR_2013_logo.svg.png", OTR
 http://91.142.158.107:8092/play/39/index.m3u8
 #EXTINF:-1 tvg-id="izvestia" group-title="🇷🇺 Nga và khối SNG" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Iz.tv.logo_news.png/200px-Iz.tv.logo_news.png", Izvestia Novosti
@@ -1050,25 +1191,25 @@ http://[2409:8087:1a0b:df::4005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:5e00:24::1e]:6060/000000001000/1000000002000011619/index.m3u8
 
 #EXTINF:-1 tvg-id="31" tvg-name="港台電視 31" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/RTHK_TV_31A.svg/revision/latest?cb=20210325175806" group-title="🇭🇰 Hong Kong", RTHK 31
-https://live.hkdvb.com/hls/live/31.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/31.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="32" tvg-name="港台電視 32" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/78/RTHK_TV_32.svg/revision/latest?cb=20200511233323" group-title="🇭🇰 Hong Kong", RTHK 32
-https://live.hkdvb.com/hls/live/32.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/32.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="33" tvg-name="CCTV-1  港澳版" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a7/RTHK_TV_33.svg/revision/latest?cb=20200511233655" group-title="🇭🇰 Hong Kong", RTHK 33
-https://live.hkdvb.com/hls/live/33.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/33.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="34" tvg-name="CGTN Documentary" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/RTHK_TV_34.png/revision/latest?cb=20220815031856" group-title="🇭🇰 Hong Kong", RTHK 34
-https://live.hkdvb.com/hls/live/34.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/34.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="35" tvg-name="CGTN English" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/RTHK_TV_35.svg/1024px-RTHK_TV_35.svg.png" group-title="🇭🇰 Hong Kong", RTHK 35
-https://live.hkdvb.com/hls/live/35.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/35.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="76" tvg-name="HOY 國際財經台" tvg-logo="https://info.hkanimal.com/png_logo/76.png" group-title="🇭🇰 Hong Kong", HOY TV 76
-https://live.hkdvb.com/hls/live/76.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/76.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="77" tvg-name="HOY TV" tvg-logo="https://info.hkanimal.com/png_logo/77.png" group-title="🇭🇰 Hong Kong", HOY TV
-https://live.hkdvb.com/hls/live/77.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/77.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="78" tvg-name="HOY TV 資訊台" tvg-logo="https://info.hkanimal.com/png_logo/78.png" group-title="🇭🇰 Hong Kong", HOY TV 78
-https://live.hkdvb.com/hls/live/78.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/78.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade
-https://live.hkdvb.com/hls/live/81.m3u8?token=680446446318360
+http://42.98.17.198:9981/stream/channelid/1014712634?profile=pass
 #EXTINF:-1 tvg-id="81" tvg-name="Jade 翡翠台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E7%BF%A1%E7%BF%A0%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Jade UHD
-https://live.hkdvb.com/hls/live/800.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/800.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="82" tvg-name="TVB PLUS" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/TVBPlus.png?raw=true" group-title="🇭🇰 Hong Kong", TVB Plus
 http://60.246.171.122:8892/bysid/82
 #EXTINF:-1 tvg-id="83" tvg-name="News 新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/%E6%97%A0%E7%BA%BF%E6%96%B0%E9%97%BB%E5%8F%B0.png?raw=true" group-title="🇭🇰 Hong Kong", TVB News
@@ -1082,13 +1223,13 @@ http://60.246.171.122:8889/bysid/96
 #EXTINF:-1 tvg-id="99" tvg-name="ViuTV" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/viutv.png?raw=true" group-title="🇭🇰 Hong Kong", ViuTV
 http://60.246.171.122:8889/bysid/99
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://github.com/fanmingming/live/blob/main/tv/NOW%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="🇭🇰 Hong Kong", NOW News
-https://live.hkdvb.com/hls/live/332.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/332.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/s-logo/630_e.png" group-title="🇭🇰 Hong Kong", NOW Sports Prime
-https://live.hkdvb.com/hls/live/630.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/630.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/logo/621-wbg-e.png" group-title="🇭🇰 Hong Kong", NOW Sports Premier League
-https://live.hkdvb.com/hls/live/621.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/621.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://www.nowtv.now.com/media/logo/632-dbg-e.png" group-title="🇭🇰 Hong Kong", NOW Sports 632 (La Liga)
-https://live.hkdvb.com/hls/live/632.m3u8?token=680446446318360
+https://live.hkdvb.com/hls/live/632.m3u8?token=680446446334152
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/9/9b/TDM_Ou_Mun.png" group-title="🇭🇰 Hong Kong", TDM Ou Mun
 http://60.246.171.122:8891/bysid/91
 #EXTINF:-1 tvg-id="99" tvg-name="NOW新聞台" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/4/4e/Canal_Macau.png" group-title="🇭🇰 Hong Kong", TDM Macau
@@ -1583,62 +1724,105 @@ https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.m
 #EXTINF:-1 group-title="🇲🇾🇸🇬 Malaysia và Singapore" tvg-id="1007" tvg-chno="1007" tvg-logo="https://static.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='jpg'&Quality=85&ImageId='3350553'&EntityType='Item'&EntityId='229212'&Width=237&Height=237&ImageUrl='3350553.jpg'&device='web_browser'&subscriptions='Registered'&segmentationTags='_en,all'&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",meWATCH LIVE 2
 https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd
 
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686793977173/462bf48b67aa_640_360.png", TV360+1
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189720461/dc4ee8910c25_640_360.png ", TV360+1
 #EXTVLCOPT:http-user-agent=VThanhTivi
-http://171.226.225.198:8889/rtp/239.12.251.72:5000
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/06/15/08/1686794009990/d06c292dfa18_640_360.png", TV360+2
+http://103.171.91.5/play/u2p_e4wGSh0vafm-3bmTbOALAsMPY5YT2XEQmNZ8ElU/ts
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189794311/c4d18ecff9f7_640_360.png", TV360+2
 #EXTVLCOPT:http-user-agent=VMT
-http://171.226.225.198:8889/rtp/239.12.252.59:5000
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png", TV360+3
+http://103.171.91.5/play/u2p_e4wGSh0vafm-3bmTbNfs6WR5Dtlyn_x8hCLsf7o/ts
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/02/10/15/1676017385349/790530ec477b_640_360.png", TV360+3
 #EXTVLCOPT:http-user-agent=VMT
-https://tth.vn/TV360⁺³
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png", TV360+4
+http://103.171.91.5/play/u2p_e4wGSh0vafm-3bmTbAKJUddB5rk31bmauxL4ej4/ts
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/03/21/13/1679381719416/902f0862cc9b_640_360.png", TV360+4
 #EXTVLCOPT:http-user-agent=VMT
 https://tth.vn/TV360⁺⁴
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/19/17/1726740960539/cb834040831f_640_360.png", TV360+5
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/21/1727189978632/51f31c767a91_640_360.png", TV360+5
 #EXTVLCOPT:http-user-agent=VMT
-https://thvip.site/360/9867/index.m3u8
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/19/17/1726740923372/3668f8c5f024_640_360.png", TV360+6
-https://thvip.site/360/9868/index.m3u8
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/20/06/1726788697117/30d4679fe59d_640_360.png", TV360+7
-https://thvip.site/360/9869/index.m3u8
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/20/00/172676698597/300138c2bbe3_640_360.png", TV360+8
-https://thvip.site/360/9870/index.m3u8
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sky_Sport_Austria_1_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_1_AT_Logo_2020.svg.png",Sky Sport Austria 1
-http://p1.cvtv.xyz/SA1?token=live
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sky_Sport_Austria_2_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_2_AT_Logo_2020.svg.png",Sky Sport Austria 2
-http://p1.cvtv.xyz/SA2?token=live
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sky_Sport_Austria_3_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_3_AT_Logo_2020.svg.png",Sky Sport Austria 3
-http://p1.cvtv.xyz/SA3?token=live
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Sky_Sport_Austria_4_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_4_AT_Logo_2020.svg.png",Sky Sport Austria 4
-http://p1.cvtv.xyz/SA4?token=live
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sky_Sport_Austria_5_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_5_AT_Logo_2020.svg.png",Sky Sport Austria 5
-http://p1.cvtv.xyz/SA5?token=live
-#EXTINF:-1 group-title="UEFA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/1000px-DAZN_1_Logo.svg.png",DAZN 1
-http://p1.cvtv.xyz/DZ1?token=live
+http://thvip.site/360/9867/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/22/1727190010448/7463a4b5c14d_640_360.png", TV360+6
+http://thvip.site/360/9868/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/22/1727190077791/4922144877f1_640_360.png", TV360+7
+http://thvip.site/360/9869/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/24/22/172719012995/8df54b2f7576_640_360.png", TV360+8
+http://thvip.site/360/9870/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://img-zlr1.tv360.vn/image1/2024/09/30/22/1727709197325/1be646ba55c5_640_360.png", TV360+9
+http://thvip.site/360/9887/index.m3u8
 
+#EXTINF:-1 tvg-id="Sky.Sport.Top.Event.de" tvg-name="Sky Sport Top Event DE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-sport/sky-sport-top-event-de.png" group-title="Sports" ,Sky Sport Top Event DE
+#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://ilovetoplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium556/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/1200px-Sky_Sport_F1_-_Logo_2020.svg.png",Sky Sport F1
+http://p1.cvtv.xyz/f1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://sender.epglogos.de/302x190_w/12181.png",Sky Sport Premier League
+http://p1.cvtv.xyz/pl?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sky_Sport_Mix_Logo_2022.svg/1200px-Sky_Sport_Mix_Logo_2022.svg.png",Sky Sport Mix
+http://p1.cvtv.xyz/mix?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://sender.epglogos.de/302x190_w/623.png",Sky Sport Bundesliga
+http://p1.cvtv.xyz/bun?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/1200px-Sky_Sport_Tennis.svg.png",Sky Sport Tennis
+http://p1.cvtv.xyz/tennis?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sky_Sport_Austria_1_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_1_AT_Logo_2020.svg.png",Sky Sport Austria 1
+http://p1.cvtv.xyz/SA1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 2
+http://p1.cvtv.xyz/SA2?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/1200px-Sky_Sport_-_Logo_2020.svg.png",Sky Sport A/B 3
+http://p1.cvtv.xyz/SA3?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/DAZN_1_Logo.svg/1000px-DAZN_1_Logo.svg.png",DAZN 1
+http://p1.cvtv.xyz/DZ1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DAZN_2.svg/1200px-DAZN_2.svg.png",DAZN 2
+http://p1.cvtv.xyz/DZ2?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2021/02/sdf_logo_rgb_hoch_02.png",Sportdigital
+http://p1.cvtv.xyz/spd?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://www.programme-tv.net/imgre/fit/~2~channel~cd7b35ad736b1a9a.png/1200x800/quality/80/canalplus-premier-league.png",Canal+ Premier League
+http://p1.cvtv.xyz/cz?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+ Sport
+http://p1.cvtv.xyz/cp1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/canalac.png",Canal+ Action
+http://p1.cvtv.xyz/ca?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://media.info/l/o/1/1539.1690027797.png",TNT Sports 1 4Mbps for 4G
+http://p1.cvtv.xyz/tnt1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://media.info/l/o/1/1540.1690027877.png",TNT Sports 2 4Mbps for 4G
+http://p1.cvtv.xyz/tnt2?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://media.info/l/o/5/5712.1690027954.png",TNT Sports 3 4Mbps for 4G
+http://p1.cvtv.xyz/tnt3?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://media.info/l/o/1/1491.1690027975.png",TNT Sports 4 4Mbps for 4G
+http://p1.cvtv.xyz/tnt4?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/tntsp5.png",TNT Sports 5 4Mbps for 4G
+http://p1.cvtv.xyz/tnt5?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391293.png",Eleven Sports 1
+http://p1.cvtv.xyz/E1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391296.png",Eleven Sports 2
+http://p1.cvtv.xyz/E2?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/1200px-Eurosport_1_Logo_2015.svg.png",Eurosport 1
+http://p1.cvtv.xyz/es1?token=live
+#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eurosport_2_Logo_2015.svg/1200px-Eurosport_2_Logo_2015.svg.png",Eurosport 2
+http://p1.cvtv.xyz/es2?token=live
 #EXTINF:-1 tvg-id="SkySpMainEv.uk" tvg-logo="https://i.imgur.com/ETzQJdt.png" group-title="Sports",SkySports_MainEventUHD
 https://7pal.short.gy/SSMEuhd
-#EXTINF:-1 tvg-id="Astro.SuperSport.UHD.1.my" tvg-logo="https://i.imgur.com/LIxOI3U.png" group-title="Sports",AstroSuperSportUHD
+#EXTINF:-1 tvg-id="Astro.Sports.UHD.my" tvg-logo="https://i.imgur.com/3cW86E5.png" group-title="Sports",Astro_Sports-UHD
 https://7pal.short.gy/astrouhd
 #EXTINF:-1 tvg-id="4k_DIGITAL_Mono_EN.bein" tvg-logo="https://i.imgur.com/ZYpUQ3w.png" group-title="Sports",beIN4k
 https://7pal.short.gy/bein-uhd
 #EXTINF:-1 tvg-id="English.-.Now.Sports.4K.1.hk" tvg-logo="https://www.nowtv.now.com/media/logo/611-wbg-e.png" group-title="Sports",NowSports1-4k
 https://7pal.short.gy/nowsport4k
-#EXTINF:-1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://www.thesportsdb.com/images/media/channel/tvlogo/sdvs4u1659622094.png" group-title="Sports",HUBPremier2UHD
+#EXTINF:-1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://i.imgur.com/THhLXO8.jpg" group-title="Sports",HUBPremier2UHD
 https://7pal.short.gy/HubP2uhd
 #EXTINF:-1 tvg-id="V.sport.ULTRA.HD.fi" tvg-logo="https://i.imgur.com/J2dnfBZ.png" group-title="Sports",VSportUltraHD
-http://p1.cvtv.xyz/uhd?token=live
+https://7pal.short.gy/VSportUHD
+#EXTINF:-1 tvg-id="TNT.Sport.Ultimate.uk" tvg-logo="https://media.info/l/o/5/5824.1689874022.png" group-title="Sports",TNTSport_Ultimate-4K_HDR
+https://7pal.short.gy/TNTUltimate
 #EXTINF:-1 tvg-id="Digi.4K.ro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/DIGI_4K.jpg" group-title="Sports",Digi4K
 https://7pal.short.gy/digi4k
 #EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-logo="https://i.imgur.com/PUaJPaE.png" group-title="Sports",ElevenSport1-4K
 https://7pal.short.gy/11sports1
-#EXTINF:-1 tvg-id="5SPORT.4K.[Sport.5.4K].il" tvg-logo="https://i.imgur.com/EPIy6eZ.png" group-title="Sports",5Sport4K
-https://7pal.short.gy/5sport
+#EXTINF:-1 tvg-id="Prima.4K.ro" tvg-logo="https://i.imgur.com/TrumXXV.png" group-title="Sports",Prima4K
+https://7pal.short.gy/prima4k
 #EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-logo="https://i.imgur.com/9wrgXyy.png" group-title="Sports",SkySportsF1UHD
 https://7pal.short.gy/SSF1uhd
-#EXTINF:-1 tvg-id="Sky.Sport.Bundesliga.UHD.de" tvg-logo="https://i.imgur.com/wgvrku8.png" group-title="Sports",SkySport_BundesligaUHD.de
-https://7pal.short.gy/ssblgde
+#EXTINF:-1 tvg-id="Ziggo.Sport.nl" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/70/Ziggo_Sport_Logo.jpg" group-title="Sports",Ziggo_Sport_UHD
+https://7pal.short.gy/ZiggoSport
 #EXTINF:-1 tvg-id="Eurosport.4K.ro" tvg-logo="https://i.imgur.com/APE7FAm.jpg" group-title="Sports",EuroSport4K 
 https://7pal.short.gy/eusport4k
 #EXTINF:-1 tvg-id="M..LaLiga.UHD.es" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIGUH.png" group-title="Sports",M+LaLigaUHD.es
@@ -1656,61 +1840,37 @@ https://7pal.short.gy/tntspts4
 #EXTINF:-1 tvg-id="SkySpMainEvHD.uk" tvg-logo="https://i.imgur.com/mnAYZiQ.png" group-title="Sports", SkySports_MainEvent-FHD
 https://7pal.short.gy/SkSpMainE
 #EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-logo="https://i.imgur.com/dUAIbXN.png" group-title="Sports", SkySports_PremierLeague-FHD
-http://p1.cvtv.xyz/pl?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sky_Sport_Bundesliga_1_DE_Logo_2020.svg/1200px-Sky_Sport_Bundesliga_1_DE_Logo_2020.svg.png",SkySports_Bundesliga-FHD
-http://p1.cvtv.xyz/bun?token=live
+https://7pal.short.gy/ssportspl
 #EXTINF:-1 tvg-id="SkySp.Fball.HD.uk" tvg-logo="https://i.imgur.com/TRX5fQr.png" group-title="Sports", SkySports_Football-FHD
 https://7pal.short.gy/ssportsfb
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sky_Sport_Austria_1_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_1_AT_Logo_2020.svg.png",SkySports_Austria1
-http://p1.cvtv.xyz/SA1?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Sky_Sport_Austria_2_AT_Logo_2020.svg/1200px-Sky_Sport_Austria_2_AT_Logo_2020.svg.png",SkySports_Austria 2
-http://p1.cvtv.xyz/SA2?token=live
-#EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-logo="https://seekvectorlogo.com/wp-content/uploads/2021/12/sky-sports-f1-vector-logo-2021.png" group-title="Sports", SkySports_F1-FHD
+#EXTINF:-1 tvg-id="SkySp.F1.HD.uk" tvg-logo="https://i.imgur.com/vKqGxqV.png" group-title="Sports", SkySports_F1-FHD
 https://7pal.short.gy/ssportsf1
+#EXTINF:-1 tvg-id="SkySp+.uk" tvg-logo="https://static.skyassets.com/contentstack/assets/blt143e20b03d72047e/bltf61726b1ee0de5d4/66857a7ebdc1c3b339ddc0d8/image_(5).png" group-title="Sports", SkySports+FHD
+https://7pal.short.gy/ssportplus
 #EXTINF:-1 tvg-id="SkySp.Tennis.HD.uk" tvg-logo="https://i.imgur.com/1YbopYK.png" group-title="Sports", SkySports_Tennis-FHD
 https://7pal.short.gy/ssportstn
 #EXTINF:-1 tvg-id="SkySp.Golf.HD.uk" tvg-logo="https://i.imgur.com/6h5V23t.png" group-title="Sports", SkySports_Golf-FHD
 https://7pal.short.gy/ssportsgf
 #EXTINF:-1 tvg-id="SkySp.News.HD.uk" tvg-logo="https://i.imgur.com/I1gtyo7.png" group-title="Sports", SkySports_News-FHD
 https://7pal.short.gy/ssportsnw
-#EXTINF:-1 tvg-id="Sky.Action.HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sky_Sport_Mix_Logo_2022.svg/1200px-Sky_Sport_Mix_Logo_2022.svg.png" group-title="Sports", SkySports_Mix-FHD
-http://p1.cvtv.xyz/mix?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sky_Sports_Box_Office.png/798px-Sky_Sports_Box_Office.png" group-title="Sports", SkySports_BoxOffice
+#EXTINF:-1 tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.imgur.com/tXHyBzW.png" group-title="Sports", SkySports_Action-FHD
+https://7pal.short.gy/ssportsat
+#EXTINF:-1 tvg-id="SkySpBoxOff.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sky_Sports_Box_Office.png/798px-Sky_Sports_Box_Office.png" group-title="Sports", SkySports_BoxOffice
 https://7pal.short.gy/ssportsbo
-#EXTINF:-1 group-title="Sports" tvg-logo="https://gbcomcdn.com/uploads/production/5f574a8de2f9196327ad89f7/2021/02/sdf_logo_rgb_hoch_02.png",Sportdigital
-http://p1.cvtv.xyz/spd?token=live
 #EXTINF:-1 tvg-id="Eurosport.1.HD.uk" tvg-logo="https://media.info/i/lf/300/1447433721/1065.png" group-title="Sports", Eurosport1_UK
-http://p1.cvtv.xyz/es1?token=live
+https://7pal.short.gy/eusport1
 #EXTINF:-1 tvg-id="Eurosport.2.HD.uk" tvg-logo="https://media.info/i/lf/300/1447433758/1150.png" group-title="Sports", Eurosport2_UK
-http://p1.cvtv.xyz/es2?token=live
+https://7pal.short.gy/eusport2
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.ie" tvg-logo="https://i.imgur.com/YqTCkGk.png" group-title="Sports", PremierSports1-FHD
 https://7pal.short.gy/prsport1
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.ie" tvg-logo="https://i.imgur.com/RenHhOi.png" group-title="Sports", PremierSports2-FHD
 https://7pal.short.gy/prsport2
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg/1200px-Liga_de_Campeones_por_Movistar_Plus%2B_2023_Logo.svg.png",M+LC-FHD
-http://p1.cvtv.xyz/lc?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+_Sport-FHD
-http://p1.cvtv.xyz/cp1?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Canal%2B_Sport_2015.png",Canal+_Sport2-FHD
-http://p1.cvtv.xyz/cp2?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391293.png",Eleven_Sports1-FHD
-http://p1.cvtv.xyz/E1?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://r.dcs.redcdn.pl/https/o2/n/edytorEPG/logo/logotype_391296.png",Eleven_Sports2-FHD
-http://p1.cvtv.xyz/E2?token=live
 #EXTINF:-1 tvg-id="HubPremier.1.sg" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/221_1920x1080_HTV.png" group-title="Sports", HubPremier1-FHD
 https://7pal.short.gy/HPremier1
 #EXTINF:-1 tvg-id="Hub.Premier.2.(HD).sg" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/222_1920x1080_HTV.png" group-title="Sports", HubPremier2-FHD
 https://7pal.short.gy/HPremier2
 #EXTINF:-1 tvg-id="Hub.Premier.3.sg" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/223_1920x1080_HTV.png" group-title="Sports", HubPremier3-FHD
 https://7pal.short.gy/HPremier3
-#EXTINF:-1 group-title="Sports" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Diema_Sport_HD_logo.png",Diema Sport
-http://p1.cvtv.xyz/D1?token=live
-#EXTINF:-1 group-title="Sports" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/47/DS2_logo.png",Diema Sport 2
-http://p1.cvtv.xyz/D2?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://raw.githubusercontent.com/chivy141206/cvmedia/main/img/diema3.png",Diema Sport 3
-http://p1.cvtv.xyz/D3?token=live
-#EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/NovaSport.png",Nova Sport
-http://p1.cvtv.xyz/nvs?token=live
 #EXTINF:-1 tvg-id="USA.Network.HDTV.(East).(USAHD).us" tvg-logo="https://i.imgur.com/PD1qeRO.jpg" group-title="Sports", USA_NetWork-FHD
 https://7pal.short.gy/usanetwork
 #EXTINF:-1 tvg-id="English.-.Now.Sports.Premier.League.1.hk" tvg-logo="https://www.nowtv.now.com/media/logo/621-wbg-e.png" group-title="Sports", NowSports_PremierLeague1-FHD
@@ -1727,21 +1887,35 @@ https://7pal.short.gy/skyspt2nz
 https://7pal.short.gy/skyspt3nz
 #EXTINF:-1 tvg-id="SKY.Sport.4.nz" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_4_logo_stack_rgb.png" group-title="Sports", SkySport4_NZ-FHD
 https://7pal.short.gy/skyspt4nz
+#EXTINF:-1 tvg-id="SKY.Sport.5.nz" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_5_logo_stack_rgb.png" group-title="Sports", SkySport5_NZ-FHD
+https://7pal.short.gy/skyspt5nz
+#EXTINF:-1 tvg-id="SKY.Sport.6.nz" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_6_logo_stack_rgb.png" group-title="Sports", SkySport6_NZ-FHD
+https://7pal.short.gy/skyspt6nz
+#EXTINF:-1 tvg-id="SKY.Sport.7.nz" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_7_logo_stack_rgb.png" group-title="Sports", SkySport7_NZ-FHD
+https://7pal.short.gy/skyspt7nz
 #EXTINF:-1 tvg-id="SKY.Sport.8.nz" tvg-logo="https://static.sky.co.nz/sky/channel-logos/Sky_Sport_Premier_League_Channel_Logo.png" group-title="Sports", SkySport8-PremierLeague_NZ-FHD
 https://7pal.short.gy/skyspt8nz
 #EXTINF:-1 tvg-id="FoxLeague.au" tvg-logo="https://origin.go.foxsports.com.au/wp-content/uploads/2017/02/aaaa_log_foxl_a-1.png" group-title="Sports", Fox502_AU-FHD
 https://7pal.short.gy/fox502au
-#EXTINF:-1 tvg-id="FoxSports503.au" tvg-logo="https://media.info/l/o/6/6551.1489224386.png" group-title="Sports", Fox503_AU-FHD
+#EXTINF:-1 tvg-id="FoxSports503.au" tvg-logo="https://i.imgur.com/TWQEMcn.png" group-title="Sports", Fox503_AU-FHD
 https://7pal.short.gy/fox503au
-#EXTINF:-1 tvg-id="Astro.SuperSport.HD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/Astro_ASSP1.png" group-title="Sports", Astro_Supersport1_MY-FHD
+#EXTINF:-1 tvg-id="FoxSports504.au" tvg-logo="https://i.imgur.com/zFvtXJ5.png" group-title="Sports", Fox504_AU-FHD
+https://7pal.short.gy/fox504au
+#EXTINF:-1 tvg-id="FoxSports505.au" tvg-logo="https://i.imgur.com/ceepalB.png" group-title="Sports", Fox505_AU-FHD
+https://7pal.short.gy/fox505au
+#EXTINF:-1 tvg-id="FoxSports506.au" tvg-logo="https://i.imgur.com/U5UhpDY.png" group-title="Sports", Fox506_AU-FHD
+https://7pal.short.gy/fox506au
+#EXTINF:-1 tvg-id="FoxSports507.au" tvg-logo="https://i.imgur.com/PeDP6zC.png" group-title="Sports", Fox507_AU-FHD
+https://7pal.short.gy/fox507au
+#EXTINF:-1 tvg-id="Astro.Premier.League.my" tvg-logo="https://i.imgur.com/M4nTRLb.png" group-title="Sports", Astro_Premier_League-FHD
 https://7pal.short.gy/astross1
-#EXTINF:-1 tvg-id="Astro.SuperSport.2.HD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Astro_ASSP2.png" group-title="Sports", Astro_Supersport2_MY-FHD
+#EXTINF:-1 tvg-id="Astro.Premier.League.2.my" tvg-logo="https://i.imgur.com/f6hG3Ok.png" group-title="Sports", Astro_Premier_League2-FHD
 https://7pal.short.gy/astross2
-#EXTINF:-1 tvg-id="Astro.SuperSport.3.HD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/37/Astro_ASSP3.png" group-title="Sports", Astro_Supersport3_MY-FHD
+#EXTINF:-1 tvg-id="Astro.Grandstand.my" tvg-logo="https://i.imgur.com/u92HNWn.png" group-title="Sports", Astro_Grandstand-FHD
 https://7pal.short.gy/astross3
-#EXTINF:-1 tvg-id="Astro.SuperSport.4.HD.my" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/Astro_ASSP4.png" group-title="Sports", Astro_Supersport4_MY-FHD
+#EXTINF:-1 tvg-id="Astro.Football.my" tvg-logo="https://i.imgur.com/ixUEirO.png" group-title="Sports", Astro_Football-FHD
 https://7pal.short.gy/astross4
-#EXTINF:-1 tvg-id="EPL.za" tvg-logo="https://images.supersport.com/media/yvuloxza/premier-league-1.png" group-title="Sports", Supersport_Premier_League-FHD
+#EXTINF:-1 tvg-id="EPL.za" tvg-logo="https://i.imgur.com/Boxa3qc.png" group-title="Sports", Supersport_Premier_League-FHD
 https://7pal.short.gy/spersppl
 #EXTINF:-1 tvg-id="FOOTBALL.za" tvg-logo="https://images.supersport.com/media/wx5prn11/football-6.png" group-title="Sports", Supersport_Football-FHD
 https://7pal.short.gy/sperspfb
@@ -1749,7 +1923,7 @@ https://7pal.short.gy/sperspfb
 https://7pal.short.gy/sperspllg
 #EXTINF:-1 tvg-id="PSL.za" tvg-logo="https://images.supersport.com/media/o1qmay0z/psl-1.png" group-title="Sports", Supersport_PSL-FHD
 https://7pal.short.gy/spersppsl
-#EXTINF:-1 tvg-id="MOTORSPORT.za" tvg-logo="https://saeseries.com/wp-content/uploads/2023/12/Motorsportpng_-1024x275.png" group-title="Sports", Supersport_Motosport-FHD
+#EXTINF:-1 tvg-id="MOTORSPORT.za" tvg-logo="https://i.imgur.com/WpL99ea.png" group-title="Sports", Supersport_Motosport-FHD
 https://7pal.short.gy/sperspmts
 #EXTINF:-1 tvg-id="ACTION.za" tvg-logo="https://images.supersport.com/media/krybzs0y/action-1.png" group-title="Sports", Supersport_Action-FHD
 https://7pal.short.gy/sperspat
@@ -1783,11 +1957,3 @@ https://7pal.short.gy/mlbnw
 https://7pal.short.gy/nhlnw
 #EXTINF:-1 tvg-id="UFC.Fight.Pass.Dummy.us" tvg-logo="https://www.sportsvideo.org/wp-content/uploads/2016/01/ufc-logo-new-red.png" group-title="Sports", USA:UFC_24/7
 https://7pal.short.gy/ufc247
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="Sports", Event 1
-https://7pal.short.gy/event1
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="Sports", Event 2
-https://7pal.short.gy/event2
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="Sports", Event 3
-https://7pal.short.gy/event3
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/K6CT6m6.png" group-title="Sports", Event 4
-https://7pal.short.gy/event4
